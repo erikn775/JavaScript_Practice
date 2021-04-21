@@ -8,10 +8,23 @@
   <title>JavaScript Game</title>
 </head>
 <body>
-    <div class="sidenav">
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <h3>Welcome</h3>
+      <form class="start-form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="color">Color:</label><br>
+        <input type="color" id="color" name="color"><br><br>
+        <input type="submit" value="Start game">
+      </form>
+    </div>
+  </div>
+  
+    <!-- <div class="sidenav">
         <a href="#">Start Game</a>
         <a href="#">Enter Name</a>
-      </div>
+      </div> -->
     <canvas class="game-board">
 
     </canvas>
